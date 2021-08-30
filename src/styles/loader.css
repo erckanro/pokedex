@@ -1,0 +1,31 @@
+body .loader {
+  height: 85vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .loader div {
+  font-size: 36px;
+  margin: 0 auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: gray;
+  -webkit-animation: blinker 1s linear infinite;
+          animation: blinker 1s linear infinite;
+}
+
+@media only screen and (max-width: 450px) {
+  body .loader div {
+    font-size: 31px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body .loader div {
+    font-size: 26px;
+  }
+}
+/*# sourceMappingURL=loader.css.map */

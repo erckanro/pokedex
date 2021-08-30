@@ -1,0 +1,61 @@
+@import 'general';
+body {
+    .content-wrapper {
+        margin-top: 30px;
+        .card {
+            background: #747474;
+            margin-bottom: 30px;
+            color: #fff;
+            animation: scale .8s linear;
+            img {
+                padding: 0 30px;
+            }
+            .card-body {
+                text-align: center;
+                padding: 0;
+                .number,
+                .name {
+                    font-size: 21px;
+                }
+                .type-label {
+                    background: silver;
+                    display: inline-block;
+                    margin: 15px 5px;
+                    padding-bottom: 2px;
+                    border-radius: 4px;
+                    width: 70px;
+                    font-size: 14px;
+                    &.Grass {
+                        background: $grass;
+                    }
+                    &.Poison {
+                        background: $poison;
+                    }
+                    &.Fire {
+                        background: $fire;
+                    }
+                    &.Water {
+                        background: $water;
+                    }
+                    &.Bug {
+                        background: $bug;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 575px ) {
+    body {
+        .content-wrapper {
+            .card {
+                .card-body {
+                    .name {
+                        font-size: 31px;
+                    }
+                }
+            }
+        }
+    }
+}

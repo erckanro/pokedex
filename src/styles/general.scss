@@ -1,0 +1,28 @@
+$grass: #83c27e;
+$poison: #c27ebc;
+$fire: #fd8900;
+$water: #051bd9;
+$bug: #99b100;
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+}
+
+@keyframes scale {
+    50% {
+      transform:scale(1.1);
+    }
+  }

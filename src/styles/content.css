@@ -1,0 +1,118 @@
+@-webkit-keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+@-webkit-keyframes scale {
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes scale {
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+body .content-wrapper {
+  margin-top: 30px;
+}
+
+body .content-wrapper .card {
+  background: #747474;
+  margin-bottom: 30px;
+  color: #fff;
+  -webkit-animation: scale .8s linear;
+          animation: scale .8s linear;
+}
+
+body .content-wrapper .card img {
+  padding: 0 30px;
+}
+
+body .content-wrapper .card .card-body {
+  text-align: center;
+  padding: 0;
+}
+
+body .content-wrapper .card .card-body .number,
+body .content-wrapper .card .card-body .name {
+  font-size: 21px;
+}
+
+body .content-wrapper .card .card-body .type-label {
+  background: silver;
+  display: inline-block;
+  margin: 15px 5px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  width: 70px;
+  font-size: 14px;
+}
+
+body .content-wrapper .card .card-body .type-label.Grass {
+  background: #83c27e;
+}
+
+body .content-wrapper .card .card-body .type-label.Poison {
+  background: #c27ebc;
+}
+
+body .content-wrapper .card .card-body .type-label.Fire {
+  background: #fd8900;
+}
+
+body .content-wrapper .card .card-body .type-label.Water {
+  background: #051bd9;
+}
+
+body .content-wrapper .card .card-body .type-label.Bug {
+  background: #99b100;
+}
+
+@media only screen and (max-width: 575px) {
+  body .content-wrapper .card .card-body .name {
+    font-size: 31px;
+  }
+}
+/*# sourceMappingURL=content.css.map */

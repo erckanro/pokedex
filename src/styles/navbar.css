@@ -1,0 +1,14 @@
+body nav {
+  place-content: center;
+  background: #3f3f3f;
+  height: 70px;
+  color: #fff;
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 450px) {
+  body nav {
+    font-size: 26px;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */
